@@ -6,13 +6,12 @@ import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules
-import {Pagination, Navigation} from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Pagination, Navigation} from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/swiper.min.css'
+import 'swiper/modules/pagination/pagination.min.css'
 
 
 const data = [
